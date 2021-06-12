@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Restaurant page
 [Link page](https://vlunaklick.github.io/restaurant_page/)
 
