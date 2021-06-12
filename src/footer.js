@@ -3,6 +3,7 @@ import img from './images/github-ico.png';
 export default function(){
     let idConte = document.getElementById('content');
     let footer = document.createElement('footer');
+    footer.setAttribute('id','footer-r')
 
     let textM = document.createElement('h3');
     textM.innerHTML = 'Created with love by Valen'
