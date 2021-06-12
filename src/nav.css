@@ -7,37 +7,65 @@
 
 body{
     margin: 0;
+    background-image: url('./images/wallpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: var(--hea-nav);
+    flex-direction: column;
+    margin-top: 100px;
 }
 
 nav{
+    top: 0;
+    left: 0;
     font-family: 'Nanum Gothic', sans-serif;
     width: 100%;
     height: 70px;
     display: flex;
     position: fixed;
-    background-color: var(--nav-bg);
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 2px #000;
+    box-shadow: 0 0 5px #000;
+    background-color: rgba(0,0,0,0.5);
 }
 
 h1{
     font-weight: 800;
     font-size: 40px;
     color: var(--hea-nav);
-    width: 60%;
-    text-align: end;
+    width: 40%;
     text-shadow: 0 0 2px #000;
+    margin-left: 20px;
 }
 
 ul{
     display: flex;
-    width: 50%;
+    width: 63%;
+    text-align: end;
+}
+
+.icoHead{
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
 }
 
 .liHead{
     list-style: none;
     margin: 0 60px 0 0;
+    cursor: pointer;
     transition: 0.25s;
 }
 

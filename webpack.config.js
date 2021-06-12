@@ -18,6 +18,19 @@ const fileRules = {
   ]
 }
 
+const imagesRules = {
+  test: /\.(png|jpe?g|gif)$/i,
+  use: [
+    {
+      loader: 'file-loader',
+      options: {
+        name: '[name].[ext]',
+        outputPath: 'images/'
+      }
+    },
+  ],
+};
+
 module.exports = {
   entry: './src/index.js',
   output: {
@@ -27,7 +40,8 @@ module.exports = {
   module: {
     rules: [
       cssRules,
-      fileRules
+      fileRules,
+      imagesRules
     ]
   }
 };

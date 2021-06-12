@@ -1,3 +1,47 @@
-body{
-    background-color: #929292;
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+:root{
+    --nav-bg: #2b2d42;
+    --hea-nav: #edf2f4;
 }
+
+.diH{
+    width: 45%;
+    height: 100%;
+    box-shadow: 0 0 5px #000;
+    background-color: rgba(0, 0, 0, 0.719);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px #000;
+}
+
+.divHD{
+    width: 45%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.651);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px #000;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.pHome{
+    padding: 5px;
+    margin-left: 8px;
+}
+
+.homeIm{
+    margin-top: 15px;
+    margin-bottom: 0;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 3px #000;
+}
+

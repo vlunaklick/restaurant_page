@@ -1,0 +1,58 @@
+.imgMe{
+    width: 230px;
+    height: 160px;
+    box-shadow: 0 0 2px #000;
+    margin-top: 5px;
+}
+
+.imgMe{
+    width: 230px;
+    height: 160px;
+}
+
+.divI{
+    width: 35%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(165, 165, 165, 0.281);
+    border: 0 0 1px rgba(88, 88, 88, 0.281);
+    box-shadow: 0 0 2px #000;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pMenus{
+    margin-top: 0;
+}
+
+.contMenu{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divPrimero{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.divSegundo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.divI{
+    transition: 0.25s;
+}
+
+.divI:hover{
+    transform: scale(1.02);
+}

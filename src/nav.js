@@ -1,4 +1,7 @@
+import img from './images/sushi-ico.png';
+
 export default function navCreator(){
+
     let idCont = document.getElementById('content');
 
     let navH = document.createElement('nav');
@@ -9,12 +12,18 @@ export default function navCreator(){
     let menu = document.createElement('li');
     let contact = document.createElement('li');
 
+    home.setAttribute('id','homebtn');
+    menu.setAttribute('id','menubtn');
+    contact.setAttribute('id','contactbtn');
+
     let title = document.createElement('h1');
 
     let aMe = document.createElement('a');
     let aHo = document.createElement('a');
     let aCon = document.createElement('a');
 
+    let imgAp = document.createElement('img');
+    imgAp.setAttribute('src', `${img}`);
 
     home.classList.add('liHead');
     menu.classList.add('liHead');
@@ -24,9 +33,10 @@ export default function navCreator(){
     aHo.classList.add('aHead');
     aCon.classList.add('aHead');
 
-    aMe.setAttribute('href', 'test');
-    aHo.setAttribute('href', 'test');
-    aCon.setAttribute('href', 'test');
+    imgAp.classList.add('icoHead');
+
+    let main = document.createElement('main')
+    main.setAttribute('id','main-cont');
 
     home.appendChild(aHo);
     menu.appendChild(aMe);
@@ -34,13 +44,16 @@ export default function navCreator(){
 
     title.innerHTML = "Sushi Streets";
     aHo.innerHTML = "Home";
-    aMe.innerHTML = "Menú";
+    aMe.innerHTML = "Menu";
     aCon.innerHTML = "Contact";
     
-    navH.appendChild(title)
-    list.appendChild(home)
-    list.appendChild(menu)
-    list.appendChild(contact)
+    navH.appendChild(imgAp);
+
+    navH.appendChild(title);
+    list.appendChild(home);
+    list.appendChild(menu);
+    list.appendChild(contact);
     navH.appendChild(list);
     idCont.appendChild(navH);
+    idCont.appendChild(main)
 };
