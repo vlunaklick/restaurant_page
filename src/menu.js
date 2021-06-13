@@ -16,9 +16,8 @@ export default function(){
 
     /* 1er imagen */
 
-    let imgI = document.createElement('img');
-    imgI.setAttribute('src',img1);
-    imgI.classList.add('imgMe');
+    let imgI = document.createElement('div');
+    imgI.classList.add('divcali');
     let pI = document.createElement('h4');
     pI.textContent = "California roll";
     let pT = document.createElement('p');
@@ -32,9 +31,8 @@ export default function(){
 
     /* 2da imagen */
 
-    let imgII = document.createElement('img');
-    imgII.setAttribute('src',img2);
-    imgII.classList.add('imgMe');
+    let imgII = document.createElement('div');
+    imgII.classList.add('divphila');
     let pII = document.createElement('h4');
     pII.textContent = "Philadelphia roll";
     let pTI = document.createElement('p');
@@ -48,9 +46,8 @@ export default function(){
 
     /* 3era imagen */
 
-    let imgIII = document.createElement('img');
-    imgIII.setAttribute('src',img3);
-    imgIII.classList.add('imgMe');
+    let imgIII = document.createElement('div');
+    imgIII.classList.add('divtuna');
     let pIII = document.createElement('h4');
     pIII.textContent = "Spicy tuna roll";
     let pTII = document.createElement('p');
@@ -64,9 +61,8 @@ export default function(){
 
     /*  4ta imagen */
 
-    let imgIIII = document.createElement('img');
-    imgIIII.setAttribute('src',img4);
-    imgIIII.classList.add('imgMe');
+    let imgIIII = document.createElement('div');
+    imgIIII.classList.add('divseat');
     let pIIII = document.createElement('h4');
     pIIII.textContent = "Seattle roll";
     let pTIII = document.createElement('p');

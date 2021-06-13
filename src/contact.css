@@ -4,6 +4,13 @@
 }
 
 .imgst{
-    width: 400px;
-    height: 400px;
+    width: 65%;
+    height: 65%;
+}
+
+
+@media screen and (max-width:400px){
+    .imgst{
+        width: 90%;
+    }
 }

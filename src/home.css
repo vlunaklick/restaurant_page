@@ -6,7 +6,9 @@
 }
 
 .diH{
-    width: 45%;
+    margin-top: 5.625rem;
+    text-align: center;
+    width: 55%;
     height: 100%;
     box-shadow: 0 0 5px #000;
     background-color: rgba(0, 0, 0, 0.719);
@@ -15,10 +17,11 @@
     align-items: center;
     box-shadow: 0 0 5px #000;
     max-height: 10vh;
+    transition: 0.25s;
 }
 
 .divHD{
-    width: 45%;
+    width: 55%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.651);
     color: #000;
@@ -27,6 +30,22 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 5px #000;
+    margin-bottom: 1.5rem;
+    transition: 0.25s;
+}
+
+@media screen and (max-width: 900px){
+    .diH,
+    .divHD{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .diH,
+    .divHD{
+        width: 100%;
+    }
 }
 
 h2{
