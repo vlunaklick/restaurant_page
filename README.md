@@ -3,7 +3,7 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> In this project I made a "Restaurant page". It's made usng webpacks so all the things are stored in a js.
+> In this project I made a "Restaurant page". It's made using webpacks so all the things are compiled in a js.
 
 ### ✨ [Live View](https://vlunaklick.github.io/restaurant_page/)
 
@@ -20,4 +20,4 @@
 
 ## Show your support
 
-Give a ⭐️ if this project helped you!
+Give a ⭐️ to reach more people!
