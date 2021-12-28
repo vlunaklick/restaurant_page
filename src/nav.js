@@ -77,21 +77,26 @@ export default function navCreator() {
 		abierto = !abierto
 		if (abierto) {
 			list.classList.add('siVer')
+			svg.classList.add('girar')
 		} else {
 			list.classList.remove('siVer')
+			svg.classList.remove('girar')
 		}
 	})
 
 	home.addEventListener('click', () => {
 		abierto = !abierto
 		list.classList.remove('siVer')
+		svg.classList.remove('girar')
 	})
 	menu.addEventListener('click', () => {
 		abierto = !abierto
 		list.classList.remove('siVer')
+		svg.classList.remove('girar')
 	})
 	contact.addEventListener('click', () => {
 		abierto = !abierto
 		list.classList.remove('siVer')
+		svg.classList.remove('girar')
 	})
 }

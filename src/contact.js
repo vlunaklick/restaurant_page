@@ -41,6 +41,11 @@ export default function () {
 	divHD.appendChild(pHDII)
 	divHD.classList.add('divHD')
 
-	mainH.appendChild(divH)
-	mainH.appendChild(divHD)
+	let section = document.createElement('section')
+	section.classList.add('grupoSec')
+
+	section.appendChild(divH)
+	section.appendChild(divHD)
+
+	mainH.appendChild(section)
 }

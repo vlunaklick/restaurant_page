@@ -97,6 +97,11 @@ export default function () {
 	let divHD = document.createElement('article')
 	divHD.classList.add('divHD')
 	divHD.appendChild(divCon)
-	mainH.appendChild(divH)
-	mainH.appendChild(divHD)
+	let section = document.createElement('section')
+	section.classList.add('grupoSec')
+
+	section.appendChild(divH)
+	section.appendChild(divHD)
+
+	mainH.appendChild(section)
 }

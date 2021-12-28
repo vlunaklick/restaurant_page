@@ -1,53 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 :root{
+    --title-col: #0E7490;
+    --text-fon-col: #CFFAFE;
+}
+
+.grupoSec{
+    max-width: 40rem;
+    min-width: 30rem;
 }
 
 .diH{
-    margin-top: 5.625rem;
     text-align: center;
-    width: 55%;
-    height: 100%;
+    width: 100%;
     box-shadow: 0 0 5px #000;
-    background-color: rgba(0, 0, 0, 0.719);
+    background-color: var(--title-col);
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 5px #000;
     max-height: 10vh;
-    transition: 0.25s;
 }
 
 .divHD{
-    width: 55%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.651);
+    width: 100%;
+    background-color: var(--text-fon-col);
     color: #000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 5px #000;
-    margin-bottom: 1.5rem;
-    transition: 0.25s;
 }
 
-@media screen and (max-width: 900px){
-    .diH,
-    .divHD{
-        width: 75%;
+@media screen and (max-width: 667px){
+    .grupoSec{
+        max-width: 22rem;
+        min-width: 20rem;
     }
 }
 
-@media screen and (max-width: 400px){
-    .diH,
-    .divHD{
-        width: 100%;
-    }
-}
-
-h2{
-    text-decoration: underline;
+.titH{
+    margin: 0;
+    text-transform: uppercase;
+    padding: 0.5rem;
 }
 
 .pHome{

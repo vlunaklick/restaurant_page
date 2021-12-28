@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 :root{
-    --nav-bg: #111827;
-    --hea-nav: #edf2f4;
-    --nav-mobile: #374151;
-    --nav-mobile-hov: #1F2937;
+    --nav-bg: #164E63;
+    --hea-nav: #ECFEFF;
+    --nav-mobile: #0891B2;
+    --nav-mobile-hov: #0E7490;
 }
 
 
 html{
     font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
 }
 
 body{
@@ -28,13 +29,13 @@ body{
 
 main{
     width: 100%;
-    min-height: calc(100vh - (3.2rem + 3.125rem));
+    min-height: calc(100vh - (3.2rem + 2rem + 3.125rem));
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--hea-nav);
     flex-direction: column;
-    top: 3.2rem;
+    padding: 1rem 0;
 }
 
 nav{
@@ -76,8 +77,8 @@ h1{
 .liHead{
     list-style: none;
     cursor: pointer;
-    transition: transform 0.25s ease-in,
-                border-bottem 0.25 ease-in;
+    transition: transform 0.5s ease-in,
+                border-bottom 0.5 ease-in;
 }
 
 .aHead{
@@ -142,6 +143,7 @@ h1{
     .svgOculto{
         display: block;
         right: 2rem;
+        transition: transform 0.2s ease-in;
     }
     .siVer{
         left: 0;
@@ -159,5 +161,8 @@ h1{
     .liHead:hover{
         transform: translate(0,0);
         border-bottom: none;
+    }
+    .girar{
+        transform: rotate(-90deg);
     }
 }
