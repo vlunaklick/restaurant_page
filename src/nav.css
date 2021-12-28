@@ -81,6 +81,10 @@ h1{
     transition: transform 0.5s ease;
 }
 
+.liHead:hover{
+    transform: translate(0,-10%);
+}
+
 .aHead{
     text-decoration: none;
     color: var(--hea-nav);
