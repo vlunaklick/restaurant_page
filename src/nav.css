@@ -161,7 +161,6 @@ h1{
     }
     .liHead:hover{
         transform: translate(0,0);
-        border-bottom: none;
     }
     .girar{
         transform: rotate(-90deg);
