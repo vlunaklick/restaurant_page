@@ -77,8 +77,10 @@ h1{
 .liHead{
     list-style: none;
     cursor: pointer;
-    transition: transform 0.5s ease-in,
-                border-bottom 0.5 ease-in;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: transform 0.5s ease,
+                text-decoration-color 0.5s ease;
 }
 
 .aHead{
@@ -96,7 +98,7 @@ h1{
 
 .liHead:hover{
     transform: translate(0,-2px);
-    border-bottom: 1px solid var(--hea-nav);
+    text-decoration-color: var(--hea-nav);
 }
 
 .svgOculto{

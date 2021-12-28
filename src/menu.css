@@ -1,6 +1,8 @@
+:root{
+    --distancia-cuad: 1rem;
+}
+
 .divI{
-    width: 100%;
-    margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,57 +10,66 @@
     background-color: rgba(165, 165, 165, 0.281);
     border: 0 0 1px rgba(88, 88, 88, 0.281);
     box-shadow: 0 0 2px #000;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 1rem;
+    gap: 1rem;
 }
 
 .pMenus{
-    margin-top: 0;
+    margin: 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h4{
+    margin: 0;
+    font-weight: 900;
 }
 
 .divseat,
 .divphila,
 .divtuna,
 .divcali{
-    width: 90%;
-    height: 70%;
-    margin-top: 10px;
+    width: 17.1875rem;
+    height: 9.6875rem;
+    box-shadow: 0 0 2px #000;
+    background-size: cover;
+    background-position: center;
 }
 
 .divseat{
-    content: url('images/seattleroll.jpg');
+    background-image: url('images/seattleroll.jpg');
 }
 
 .divphila{
-    content: url('images/philaroll.jpg');
-    height: 48%;
+    background-image: url('images/philaroll.jpg');
 }
 
 .divcali{
-    content: url('images/californiaroll.jpg');
+    background-image: url('images/californiaroll.jpg');
 }
 
 .divtuna{
-    content: url('images/spicyroll.jpg');
-    height: 51%;
+    background-image: url('images/spicyroll.jpg');
 }
 
 .contMenu{
-    padding: 10px;
+    padding: 0 .625rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: var(--distancia-cuad);
+    height: 100%;
 }
 
 .divPrimero{
     display: flex;
-    margin-bottom: 15px;
+    gap: var(--distancia-cuad);
 }
 
 .divSegundo{
     display: flex;
-    margin-bottom: 15px;
+    gap: 1rem;
 }
 
 .divI{
@@ -66,7 +77,7 @@
 }
 
 .divI:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 
@@ -80,11 +91,6 @@
     .divHD{
         justify-content: center;
         align-items: center;
-    }
-    .divI{
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 15px;
     }
 }
 
