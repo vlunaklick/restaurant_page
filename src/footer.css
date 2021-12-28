@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 :root{
-    --footer-col:#155E75;
-    --text-footer: #ECFEFF;
+    --footer-col:#171717;
+    --text-footer: #FAFAFA;
 }
 
 footer{

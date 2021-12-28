@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 :root{
-    --nav-bg: #164E63;
-    --hea-nav: #ECFEFF;
-    --nav-mobile: #0891B2;
-    --nav-mobile-hov: #0E7490;
+    --nav-bg: #171717;
+    --hea-nav: #FAFAFA;
+    --nav-mobile: #404040;
+    --nav-mobile-hov: #262626;
 }
 
 
