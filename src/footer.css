@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 :root{
-    --nav-bg: #2b2d42;
-    --hea-nav: #edf2f4;
+    --footer-col:#4B5563;
 }
 
 footer{
@@ -13,8 +12,7 @@ footer{
     justify-content: center;
     font-family: 'Nanum Gothic', sans-serif;
     box-shadow: 0 0 5px #000;
-    background-color: rgba(0,0,0,0.5);
-    position: absolute;
+    background-color: var(--footer-col);
 }
 
 .gitimg{
@@ -47,5 +45,9 @@ h3{
 @media screen and (max-width: 660px) {
     footer{
         position: relative;
+    }
+    .divfoot{
+        justify-content: center;
+        transform: translate(0);
     }
 }

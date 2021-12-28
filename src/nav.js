@@ -6,6 +6,7 @@ export default function navCreator() {
 	let navH = document.createElement('nav')
 
 	let list = document.createElement('ul')
+	list.classList.add('sepaNav')
 
 	let home = document.createElement('li')
 	let menu = document.createElement('li')
@@ -21,7 +22,7 @@ export default function navCreator() {
 	let aHo = document.createElement('a')
 	let aCon = document.createElement('a')
 
-	let navTitulo = document.createElement('div')
+	let navTitulo = document.createElement('header')
 	navTitulo.classList.add('cajaTitulo')
 
 	let imgAp = document.createElement('img')
@@ -62,4 +63,35 @@ export default function navCreator() {
 	navH.appendChild(list)
 	idCont.appendChild(navH)
 	idCont.appendChild(main)
+
+	navTitulo.insertAdjacentHTML(
+		'beforeend',
+		`<svg id="svgP"class="svgOculto"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>`
+	)
+
+	let svg = document.getElementById('svgP')
+
+	let abierto = false
+
+	svg.addEventListener('click', e => {
+		abierto = !abierto
+		if (abierto) {
+			list.classList.add('siVer')
+		} else {
+			list.classList.remove('siVer')
+		}
+	})
+
+	home.addEventListener('click', () => {
+		abierto = !abierto
+		list.classList.remove('siVer')
+	})
+	menu.addEventListener('click', () => {
+		abierto = !abierto
+		list.classList.remove('siVer')
+	})
+	contact.addEventListener('click', () => {
+		abierto = !abierto
+		list.classList.remove('siVer')
+	})
 }
