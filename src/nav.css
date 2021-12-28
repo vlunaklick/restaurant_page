@@ -111,6 +111,9 @@ h1{
 }
 
 @media screen and (max-width: 750px){
+    main{
+        min-height: calc(100vh - (3rem + 2rem + 3.125rem));
+    }
     nav{
         flex-direction: column;
         align-items: center;

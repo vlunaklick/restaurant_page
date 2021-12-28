@@ -15,7 +15,7 @@ export default function () {
 
 	let pHD = document.createElement('p')
 	pHD.textContent =
-		'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore deleniti distinctio eum eos dolor dolore, blanditiis aliquam est voluptas suscipit corrupti. Temporibus aut qui, tempore iure accusamus mollitia? Minima, cupiditate! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore deleniti distinctio eum eos dolor dolore, blanditiis aliquam est voluptas suscipit corrupti. Temporibus aut qui, tempore iure accusamus mollitia? Minima, cupiditate! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore deleniti distinctio eum eos dolor dolore, blanditiis aliquam est voluptas suscipit corrupti.'
+		'Hello! We are Sushi Steet and we LOVE sushi! Hopefully you are a sushi lover just like us. We decided to make this website in order to meet more people who adore this food and create a community. After years of training, we created our own recipes and we want to share them with the world. You are more than welcome to navigate through our page and follow us on our social media!'
 	pHD.classList.add('pHome')
 
 	let imaH = document.createElement('img')
